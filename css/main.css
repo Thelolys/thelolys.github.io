@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Rajdhani|Sedgwick+Ave|Seymour+One');
+
+html, body{
+    background-color: black !important;
+    height: 100%;
+
+}
+p{
+
+    font-size: 20vmin;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.menu a{
+    font-family: 'Audiowide', cursive;
+    text-decoration: none;
+    font-size: 2.0vmax;
+    color: gold;
+
+}
+.menu li{
+    display: inline;
+    text-decoration: none;
+    padding: 2vmin;
+
+}
+.menu ul {
+    text-align: center;
+}
+
+.main img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+.mainbox{
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    background-color: black;
+    display: table;
+
+}
+.left{
+    background: black;
+    width: 15%;
+    height: 100%;
+    float:left;
+}
+.right{
+    background: black;
+    width: 15%;
+    height: 100%;
+    float:right;
+
+}
+.main{
+    background: black;
+    color: white;
+    width: 70%;
+    float:left;
+    padding: 20px 0 20px 0;
+    height: 100%;
+}
+.image_file
+{
+    display:none;
+}
+.main li{
+    display: block;
+    text-decoration: none;
+    font-size: 7vmin;
+    padding-top: 20px;
+
+
+}
+.main a {
+    font-family: 'Audiowide', cursive;
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: darkgray;
+}
+.subscribe{
+    text-align: center;
+}
+.subscribe a{
+    color: gold;
+    font-size: 5vmin;
+}
+.subscribe a:hover {
+    color: white;
+}
+.main p{
+
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 3vmin;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    display: flow;
+    line-height: 1.3;
+}
+.main h1 {
+    font-family: 'Audiowide', cursive;
+    font-size: 3vmin;
+    text-decoration: none;
+    color: gold;
+    margin-top: 2.5em;
+}
+
+.footer{
+    /*background-image: url("http://www.barbrothersgroningen.com/wp-content/uploads/2013/04/Bar-Brothers-Background.jpg");*/
+    clear:both;
+    width: 100%;
+    max-height: 20%;
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+
+}
+.footer a{
+    font-size: 3vmin;
+    /*margin-left: 20%;*/
+    color: white;
+    text-decoration: none;
+    font-family: 'Audiowide', cursive;
+
+}
+.footer a:hover {
+    color: darkgray;
+}
+.footer p{
+    color: white;
+    margin-right: 13%;
+    padding-bottom: 1%;
+    text-align: right;
+}
+.footer h2{
+    /*text-align: right;*/
+    /*margin-right: 20%;*/
+    color: white;
+    text-decoration: none;
+}
+.footer h1{
+    font-family: 'Audiowide', cursive;
+    text-align: left;
+    margin-left: 13%;
+    color: white;
+    text-decoration: none;
+}
+.loc{
+    text-align: left;
+    margin-left: 13%;
+}
+
+.column {
+    float: left;
+    align-items: center;
+    min-width: 1%;
+    margin-left: 13%;
+    margin-bottom: 2%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+}
+@media (max-width: 800px) {
+    .column {
+        width: 100%;
+    }
+}
+.video iframe{
+    margin-right: 1em;
+    max-height: 100%;
+    max-width: 100%;
+}
+.logo img{
+
+    max-width: 100%;
+    max-height: 100%;
+}
+div.logo:hover {
+    /*border: 3px solid black;*/
+}
+
+.urusimg{
+
+    max-height: 40%;
+    max-width: 40%;
+    display: block;
+    margin-top: 2.5em;
+    margin-bottom: 2%;
+}
+#urusimg{
+    max-height: 20%;
+    max-width: 20%;
+}
+.carname {
+    max-height: 50%;
+    max-width: 50%;
+}
+div.gallery {
+    margin: 3px;
+    border: 1px solid black;
+    float: left;
+    max-width: 20%;
+    max-height: 20%;
+
+
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    /*width: 100%;*/
+    /*height: auto;*/
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+table{
+
+    border-collapse: collapse;
+    width: 70%;
+    font-family: 'Audiowide', cursive;
+
+
+
+}
+td{
+    height: 50px;
+    width: 50%;
+    /*padding: 5px;*/
+    font-size: 10vmin;
+}
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 4vmin;
+
+}
+.button{
+    margin-left: 15%;
+
+}
+.button a{
+    font-family: 'Audiowide', cursive;
+    font-size: 2.3vmax;
+}
+.map{
+    margin-left: 13%;
+    max-width: 30%;
+    max-height:40%;
+}
+.button a:hover {
+    color: gold;
+}
+
+    #menu {
+}
